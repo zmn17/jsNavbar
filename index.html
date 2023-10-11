@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    <title>JS30 Navbar</title>
+</head>
+<body>
+    <header class="header">
+        <!-- Logo -->
+        <div class="logo">
+            <img src="/Assets/Logo.svg" alt="Ondeck logo" class="logo-svg">
+        </div>
+
+        <input type="checkbox" class="nav-toggle" id="nav-toggle">
+
+        <!-- Navigation: using unordered list -->
+        <nav>
+            <ul class="navbar">
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Challenges</a></li>
+                <li><a href="#">Resources</a></li>
+                <li><a href="#">Other Links</a></li>
+            </ul>
+        </nav>
+
+        <label for="nav-toggle" class="nav-toggle-label">
+            <span></span>
+        </label>
+
+        <div class="main">
+            <a href="#" class="sign-in">Sign In</a>
+            <a href="#" class="free">Try for free</a>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <p class="intro">
+                Ondeck is your remote <span>conference calling tool</span>
+            </p>
+            <p class="desc">
+                Ondeck is a service that allows you to create beautiful, online, and encrypted
+                video calls for you and your remote team.
+            </p>
+            <button class="free" type="button">Try for free</button>
+    
+            <div class="rating">
+                <p>5.0 Rating based on reviews from:</p>
+                <div class="comp-logo">
+                    <img src="Assets/Capterra Logo.svg" alt="capterra logo">
+                    <img src="Assets/AlternativeTo Logo.svg" alt="alternative logo">
+                    <img src="Assets/shopify-logo.svg" alt="shopify logo">
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Trusted by 3+ million people at companies like</p>
+        <div class="comps">
+            <div class="row">
+                <img src="Assets/Netflix Logo.svg" alt="Netflix logo">
+                <img src="Assets/Spotify Logo.svg" alt="spotify logo">
+            </div>
+            <div class="row">
+                <img src="Assets/Shopify Logo.svg" alt="shopify logo">
+                <img src="Assets/Walmart Logo.svg" alt="walmart logo">
+            </div>
+        </div>
+    </footer>
+
+    
+</body>
+</html>
